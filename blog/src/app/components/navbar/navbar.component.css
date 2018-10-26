@@ -1,0 +1,14 @@
+ul{
+  background-color: black;
+}
+
+ul li{
+  display: inline;
+
+  color:white;
+}
+
+button{
+  margin-left: 50px;
+
+}
