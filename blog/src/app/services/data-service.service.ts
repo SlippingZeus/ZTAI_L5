@@ -3,20 +3,19 @@ import {HttpClient} from '@angular/common/http';
 import {map} from "rxjs/operators";
 
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class DataService {
 
-  private url = 'https://jsonplaceholder.typicode.com';
+  private url = "https://jsonplaceholder.typicode.com";
 
   constructor(private http: HttpClient) { }
 
   getAll() {
     return this.http.get(this.url + '/photos')
       .pipe(
-        map( (x: any[]) => x.slice(0, 10))
+        map( (x: any[]) => x.slice(0, 5))
       );
   }
+
 
 }
