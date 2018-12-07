@@ -115,6 +115,7 @@ app.get('/api/posts', (req, res) => {
     res.send(posts);
 });
 
+routes(app);
 
 app.listen(config.port, () => {
     console.log('Server is running');
