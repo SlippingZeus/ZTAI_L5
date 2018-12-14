@@ -16,7 +16,7 @@ import {DataService} from "./services/data-service.service";
 import { FilterPipe } from './pipes/filter.pipe';
 import {FormsModule} from "@angular/forms";
 import { SearchBarComponent } from './search-bar/search-bar.component';
-import { BlogHomeComponent } from './components/blog-home/blog-home.component';
+import { BlogHomeComponent } from './blog-home/blog-home.component';
 import { TextFormatDirective } from './directives/text-format.directive';
 
 
